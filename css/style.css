@@ -122,3 +122,28 @@ body {
 .list__item__paragraph {
   font-size: 1.6rem;
 }
+
+.nav-bar {
+  background-color: #4b2582;
+}
+.nav-bar__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.nav-bar__list__item {
+  list-style-type: none;
+}
+.nav-bar__link {
+  display: inline-block;
+  padding: 3rem 2rem;
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.nav-bar__link:hover {
+  background: #814ccc;
+}
