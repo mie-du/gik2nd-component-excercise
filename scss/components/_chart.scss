@@ -1,18 +1,22 @@
 .chart {
-  width: 50vw;
+  width: 70vw;
   margin: 2rem auto;
   padding: 1rem;
   display: flex;
   gap: 2.6rem;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   
+
   &__heading {
     text-align: center;  
     margin: 0;
     margin-top: 5rem;
     font-size: 3.5rem;
     font-weight: 600;
+    flex-basis: 100%; 
+    
   }
 
   &__caption {
@@ -20,6 +24,12 @@
     margin-top: 1rem;
     font-style: italic;
     text-align: center;
+    
   }
+
+  &__legend {
+    flex-grow: 1; 
+  }
+
 }
 
