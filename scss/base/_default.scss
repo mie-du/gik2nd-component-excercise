@@ -1,9 +1,6 @@
-/* colors
-rgb(75,37,130)
-rgb(229,0,117)
-rgb(0,113,194)
-rgb(0,123,60)
-*/
+
+@use '../abstracts/variables' as *;
+
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +8,6 @@ rgb(0,123,60)
   box-sizing: border-box;
 }
 body {
-  font-family: Georama, sans-serif;
+  font-family: $font-main;
 }
 
