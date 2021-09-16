@@ -16,37 +16,6 @@ body {
   font-family: Georama, sans-serif;
 }
 
-h2 {
-  text-align: center;
-  margin: 0;
-  margin-top: 5rem;
-  font-size: 3.5rem;
-  font-weight: 600;
-}
-
-.container {
-  width: 50vw;
-  margin: 2rem auto;
-  padding: 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 2.6rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.chart p {
-  font-size: 1.2rem;
-  margin-top: 1rem;
-  font-style: italic;
-  text-align: center;
-}
-
 .legend {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
@@ -133,4 +102,33 @@ h2 {
 
 .legend li p {
   font-size: 1.6rem;
+}
+
+.chart {
+  width: 50vw;
+  margin: 2rem auto;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2.6rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.chart__heading {
+  text-align: center;
+  margin: 0;
+  margin-top: 5rem;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+.chart__caption {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  font-style: italic;
+  text-align: center;
 }
